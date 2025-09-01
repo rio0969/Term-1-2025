@@ -1,74 +1,91 @@
-/* 全体 */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: linear-gradient(to right, #1e3c72, #2a5298);
-  color: #000;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Name</title>
+  <!-- CSSファイルを読み込む -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <h1>Website Name</h1>
+    <nav>
+      <a href="#">Page 2</a>
+      <a href="#">Page 3</a>
+      <a href="#">Page 4</a>
+    </nav>
+  </header>
 
-/* ヘッダー */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #002d72;
-  color: white;
-  padding: 15px 20px;
-}
+  <!-- メインコンテンツ -->
+  <main class="container">
+    <!-- 左カラム -->
+    <aside class="left">
+      <img src="images/profile.jpg" alt="Profile Picture">
+      <h2>Message</h2>
+      <p>
+        私たちの願いは、一人ひとりがかけがえのない人生を送ることができるようにすることです。<br>
+        生徒それぞれが持つ個性を大切にし、学びや経験を通じて自己実現を目指します。<br>
+        皆さんが未来を切り拓く力を持つことを期待しています。<br>
+        - 芝国際高等学校
+      </p>
+    </aside>
 
-.header h1 {
-  margin: 0;
-}
+    <!-- 中央カラム -->
+    <section class="center">
+      <h2>Welcome to your Replicate Website</h2>
+      <p><b>Mr. Rikki Jones & Mr. Nazer Noro</b></p>
+      <p>
+        Your end of term task is to replicate this webpage <b>AS BEST AS YOU CAN!</b><br>
+        This website will make use of most of the HTML we have learnt this term, including:
+      </p>
+      <ul>
+        <li>Basic HTML Skeleton</li>
+        <li>Images: Inserting and Resizing</li>
+        <li>Making Ordered and Unordered Lists</li>
+        <li>Linking to Pages</li>
+        <li>Simple Headings</li>
+      </ul>
 
-.header nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
+      <p>After our HTML unit, we started on our CSS unit, which covered:</p>
+      <ul>
+        <li>style.css file</li>
+        <li>Colors</li>
+        <li>Sizes</li>
+        <li>Fonts</li>
+        <li>Transition Animations (Hover/Mouseover)</li>
+        <li>Flexbox</li>
+      </ul>
 
-.header nav a:hover {
-  text-decoration: underline;
-}
+      <p>
+        You will be required to use all these abilities to try and recreate what you see here on this page.<br>
+        Good Luck!
+      </p>
+    </section>
 
-/* メインレイアウト */
-.container {
-  display: flex;
-  margin: 20px;
-}
+    <!-- 右カラム -->
+    <aside class="right">
+      <h2>HTML</h2>
+      <ol>
+        <li><a href="#">HTML Structure</a></li>
+        <li><a href="#">Images and Links</a></li>
+        <li><a href="#">Overview</a></li>
+      </ol>
 
-/* 左・中央・右カラム */
-.left, .center, .right {
-  background: white;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 12px;
-}
+      <h2>CSS</h2>
+      <ol>
+        <li><a href="#">Colors and Fonts</a></li>
+        <li><a href="#">Sizes and Image Properties</a></li>
+        <li><a href="#">Flexbox</a></li>
+        <li><a href="#">Navigation Bar</a></li>
+      </ol>
+    </aside>
+  </main>
 
-.left {
-  flex: 1;
-}
-
-.center {
-  flex: 2;
-}
-
-.right {
-  flex: 1;
-}
-
-/* 左カラム画像 */
-.left img {
-  width: 100%;
-  max-width: 150px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 10px auto;
-}
-
-/* フッター */
-.footer {
-  text-align: center;
-  background: #002d72;
-  color: white;
-  padding: 15px;
-}
+  <!-- フッター -->
+  <footer class="footer">
+    <p>芝国際中学校・高等学校</p>
+    <p>Copyright © Shiba Kokusai Jr. & Sr. High School All rights reserved.</p>
+  </footer>
+</body>
+</html>
