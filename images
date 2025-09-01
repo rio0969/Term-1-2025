@@ -2,7 +2,9 @@ r10969.github.io/
 ├── index.html
 ├── style.css
 └── images/
-     ├── 
-     ├── school1.jpg
-     ├── school2.png
-     └── logo.png
+     ├── <img src="images/SchoolLogo.png" alt="学校のロゴ">
+     ├── <img src="images/yoshino.jpg" alt="プロフィール写真">
+     ├──<img src="images/logo.png" alt="ロゴ">
+　　 ├──<img src="images/logo.png" alt="ロゴ">
+     └── <img src="images/school2.png" alt="学校の写真2">
+
